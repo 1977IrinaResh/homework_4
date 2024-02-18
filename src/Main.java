@@ -64,18 +64,18 @@ public class Main {
             System.out.println("Сидячих мест не осталось, осталось только "+(wagonCapacity-wagonSits)+" стоячих мест");
 
         }
-        System.out.println("Введите первое число");
+        System.out.println("Введите первое число:");
         int firstNumber=console.nextInt();
-        System.out.println("Введите второе число");
+        System.out.println("Введите второе число:");
         int secondNumber=console.nextInt();
-        System.out.println("Введите третье число");
+        System.out.println("Введите третье число:");
         int thirdNumber=console.nextInt();
         if (firstNumber>secondNumber && firstNumber>thirdNumber){
-            System.out.println("Максимальное число "+firstNumber);
+            System.out.println("Максимальное число: "+firstNumber);
         } else if (secondNumber>firstNumber && secondNumber>thirdNumber) {
-            System.out.println("Максимальное число "+secondNumber);
+            System.out.println("Максимальное число: "+secondNumber);
         } else if (thirdNumber>firstNumber && thirdNumber>secondNumber) {
-            System.out.println("Максимальное число "+thirdNumber);
+            System.out.println("Максимальное число: "+thirdNumber);
 
         }
 
