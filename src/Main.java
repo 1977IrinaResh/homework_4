@@ -25,10 +25,10 @@ public class Main {
         System.out.println("Введите скорость автомобиля ");
         float speed=console.nextFloat();
         if (speed<60){
-            System.out.println("Если скорость "+speed+" то можно ездить спокойно");
+            System.out.println("Если скорость "+speed+", то можно ездить спокойно");
         }
         else {
-            System.out.println("Если скорость " + speed + " то скорость превышена. Придется выплатить штраф");
+            System.out.println("Если скорость " + speed + ", то скорость превышена. Придется выплатить штраф");
         }
 
         System.out.println("Снова введите возраст: ");
@@ -46,7 +46,7 @@ public class Main {
         personAge=console.nextInt();
         if (personAge<5){
             System.out.println("Если возраст ребенка равен "+personAge+" то ему нельзя кататься на аттракционе");
-        } else if (personAge<14 && personAge>=5){
+        } else if (personAge>=5 && personAge<14){
             System.out.println("Если возраст ребенка равен "+personAge+" то он может кататься в сопровождении взрослого");
         } else if (personAge>=14){
             System.out.println("Если возраст человека равен "+personAge+" то он может кататься один");
